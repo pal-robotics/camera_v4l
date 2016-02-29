@@ -1,0 +1,11 @@
+<launch>
+  
+  <node name="webcam" pkg="camera_v4l" type="camera_v4l_node" output="screen">
+    <rosparam>
+      frame_rate:         15       
+      width:              640
+      height:             480
+    </rosparam>    
+  </node>
+</launch>
+
